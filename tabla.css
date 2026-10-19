@@ -1,0 +1,29 @@
+table{
+    border: 1px solid blue;
+    border-collapse: separate;
+    border-spacing: 15px;   
+    caption-side: bottom;
+    width: 100%;
+    empty-cells: hide;
+
+}
+td, th{
+    border: 1px solid blue;
+    text-align: center;
+    height: 60px;
+    vertical-align: top;
+}
+
+tr td:nth-child(2){
+    text-align: left;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(perros.webp);
+    margin: 0;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+}

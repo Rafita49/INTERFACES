@@ -1,0 +1,102 @@
+*{
+    color: blue;
+}
+h1{
+    font-size: 50px;
+}
+.Uno{
+    background-color: grey;
+}
+.Dos{
+    background-color: yellow;
+}
+#parrafo1{
+    border: solid black;
+
+}
+#parrafo2{
+    border: solid red;
+    color: green;
+
+}
+ul > li{
+    color: aquamarine;
+}
+
+h2,h3{
+    border: green;
+}
+p>a{
+    background-color: yellow;
+}
+div{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.absoluta{
+    width: 900px;
+}
+.contenedor{
+    width: 70%;
+}
+.porcentaje{
+    width: 50%;
+}
+
+.padre{
+    font-size: 20px;
+}
+.relativaPadre{
+    font-size: 2em;
+}
+.relativaRaiz{
+    font-size: 2rem;
+}
+html{
+    font-size: 30px;/*fuente raiz*/
+}
+*{
+    height: 80%;
+}
+.caja{
+    width: 50%;
+    height: 80vh;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+ul li:first-child{
+    color: red;
+}
+ul li :last-child{
+    color: blue;
+
+}
+
+ul li :nth-child(3){
+    color: green;
+
+}
+ol li:nth-child(odd){
+    color: cadetblue;
+}
+ol li:nth-child(even){
+    color: rebeccapurple;
+}
+a:hover{
+    background-color: yellow;
+}
+#p1{
+    text-align: right;
+    text-decoration: underline solid blue;
+    word-spacing: 1.25rem; /*20/16*/
+}
+#p2{
+    text-align: left;
+    text-decoration: overline black;
+    letter-spacing: 0.625rem;
+}
+#p3{
+    text-transform: capitalize;
+}
