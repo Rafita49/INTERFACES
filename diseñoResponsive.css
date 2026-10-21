@@ -1,0 +1,75 @@
+/*body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+estilos cuando se visualiza en pantalla
+
+@media screen{
+    body{
+        background-color: aqua;
+    }
+    h1{
+        color: darkblue;
+    }
+    nav{
+        background-color: navy;
+        color: white;
+        padding: 15px;
+    }
+}
+@media print{
+    body{
+        color: black;
+        background-color: white;
+    }
+    h1{
+        color: black;
+    }
+    nav{
+        display: none;
+    }
+}*/
+
+
+
+@media(max-width:800px){
+    /*se aplican a pantallas menores o iguales a 800*/
+    p{
+        font-size: 30px;
+        color: aqua;
+    }
+
+}
+
+/*ejercicio*/
+
+@media (min-width:700px){
+    nav ul li{
+        display: inline-block;
+        width: 200px;
+        border: solid black;
+        margin: 0;
+    }a{
+        text-decoration: none;
+    }
+    .contenedor div{
+        border: solid black;
+        background-color: blue;
+        width: 20%;
+        height: 100px;
+        display: inline-block;
+
+    }
+
+}
+
+@media (min-width:300px) and (max-width:700px){
+    nav ul li{
+        display:block;
+        padding-top: 20px;
+    }
+    .contendor div{
+        display: block;
+        
+    }
+
+}
